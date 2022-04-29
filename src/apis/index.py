@@ -4,16 +4,6 @@ from flask_restx import (
 
 from ..swagger import cats
 
-""" api = Namespace(
-        'tests', description='API index testing'
-    )
-
-cat = api.model('Tests', {
-            'id': fields.String(required=True, description='The test identifier'),
-            'name': fields.String(required=True, description='The test name')
-        }
-    ) """
-
 CATS = [
         {'id': 'felix', 'name': 'Felix'}
     ]
